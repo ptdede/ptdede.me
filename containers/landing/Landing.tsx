@@ -1,9 +1,12 @@
 import React from 'react';
-// import StyledLanding from '../../pages';
+import StyledLanding from './StyledLanding';
 
 const Landing = () => {
     return (
-        <h1>Hello There!</h1>
+        <StyledLanding>
+            <h1>Hello There!</h1>
+            <p>This site is under development<br />Will be back online soon at the weekend.</p>
+        </StyledLanding>
     );
 }
 

@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next -p 3232",
     "build": "next build",
-    "start": "next start -p 3232"
+    "start": "next start -p 3232",
+    "export": "npm run build && next export"
   },
   "dependencies": {
     "@zeit/next-typescript": "1.1.0",
