@@ -75,6 +75,7 @@ const internalReset = `
 	  -webkit-box-sizing: border-box;
 	  -moz-box-sizing: border-box;
 	  box-sizing: border-box;
+	  color: rgba(0,0,0,.84)
 	}
 `;
 
