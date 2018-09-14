@@ -127,6 +127,14 @@ const StyledLanding = styled.div`
         
     }
 
+    h2 {
+        color: #9e956e;
+    }
+
+    h1 {
+        color: #8e8663;
+    }
+
     h1, h2 {
         font-weight: 300;
         text-align: center;
@@ -139,6 +147,7 @@ const StyledLanding = styled.div`
 
     p {
         line-height: 2;
+        color: rgba(0,0,0,.6);
     }
 
     @media ${breakpoints.mobileS} {
