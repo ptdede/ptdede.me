@@ -5,7 +5,7 @@ const Landing = () => {
     return (
         <StyledLanding>
             <h1>Hello There!</h1>
-            <p>This site is under development<br />Will be back online soon at the weekend.</p>
+            <p>This site is under development<br />Will be back online soon on the weekend.</p>
         </StyledLanding>
     );
 }
