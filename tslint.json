@@ -1,0 +1,38 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-react"
+    ],
+    "jsRules": {},
+    "rules": {
+        "jsx-wrap-multiline": false,
+        "member-access": [
+            true,
+            "no-public"
+        ],
+        "no-console": false,
+        "max-line-length": false,
+        "object-literal-sort-keys": false,
+        "jsx-no-lambda": false,
+        "no-string-literal": false,
+        "indent": [
+            false,
+            "spaces",
+            2
+        ],
+        "no-shadowed-variable": [
+            false,
+            {
+                "class": true,
+                "enum": true,
+                "function": true,
+                "interface": false,
+                "namespace": true,
+                "typeAlias": false,
+                "typeParameter": false
+            }
+        ]
+    },
+    "rulesDirectory": []
+}
