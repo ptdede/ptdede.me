@@ -95,7 +95,7 @@ const StyledLanding = styled.div`
                 padding: 1rem 0;
                 
                 @media ${breakpoints.mobileS} {
-                    padding: .5rem 1rem;
+                    padding: .5rem 3rem;
                 }
 
                 @media ${breakpoints.mobileM} {
