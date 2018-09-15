@@ -128,11 +128,11 @@ const StyledLanding = styled.div`
     }
 
     h2 {
-        color: #9e956e;
+        /* color: #9e956e; */
     }
 
     h1 {
-        color: #8e8663;
+        /* color: #8e8663; */
     }
 
     h1, h2 {
