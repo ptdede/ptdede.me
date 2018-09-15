@@ -37,6 +37,7 @@ export default class MyDocument extends Document {
                     <meta name="msapplication-TileColor" content="#ffffff" />
                     <meta name="msapplication-TileImage" content="/static/favicon/ms-icon-144x144.png" />
                     <meta name="theme-color" content="#ffffff" />
+                    <meta name="google-site-verification" content="6z8SNCOz6xH1P2NLv-1zD9RQdJ76LP4sCOzD88WlNRU" />
                 </Head>
                 <body>
                     <Main />
