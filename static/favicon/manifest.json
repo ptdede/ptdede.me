@@ -1,5 +1,13 @@
 {
- "name": "App",
+ "name": "Dede Adhyatmika",
+ "short_name": "ptdede",
+ "theme_color": "#bfb283",
+ "background_color": "#bfb283",
+ "display": "fullscreen",
+ "orientation": "portrait",
+ "Scope": "/",
+ "start_url": "/",
+ "splash_pages": null,
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
