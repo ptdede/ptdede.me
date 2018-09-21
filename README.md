@@ -18,5 +18,5 @@ I tried to make the website pass all audits and optimization to learn to make be
 
 ### Google Pagespeed Insight
 
-<img src="gh-files/screenshots/pagespeed-mobile.png" width="300">
-<img src="gh-files/screenshots/pagespeed-desktop.png" width="317">
+<span><img src="gh-files/screenshots/pagespeed-mobile.png" width="300"></span>
+<span><img src="gh-files/screenshots/pagespeed-desktop.png" width="317"></span>
