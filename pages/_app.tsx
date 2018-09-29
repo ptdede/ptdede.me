@@ -2,6 +2,7 @@ import App, { Container } from "next/app";
 import React from "react";
 
 import ServiceWorker from "../helpers/ServiceWorker";
+import Fonts from "../components/Fonts/Fonts";
 
 export default class MyApp extends App {
 
@@ -15,6 +16,10 @@ export default class MyApp extends App {
             pageProps = await Component.getInitialProps(ctx);
         }
         return { pageProps };
+    }
+
+    componentDidMount() {
+        Fonts();
     }
 
     render() {

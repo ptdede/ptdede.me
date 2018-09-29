@@ -1,6 +1,8 @@
+import "../global-styles";
+
 import Document, { Head, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from "styled-components";
-import "../global-styles";
+
 
 export default class MyDocument extends Document {
 
@@ -44,7 +46,7 @@ export default class MyDocument extends Document {
                     <Main />
                     <NextScript />
                 </body>
-                <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800" rel="stylesheet" />
+                {/* <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800" rel="stylesheet" /> */}
             </html>
         );
     }
