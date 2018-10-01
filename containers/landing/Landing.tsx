@@ -56,6 +56,10 @@ const Landing = () => {
 
             <div className="landing--scroller">
             </div>
+
+            <div className="footer">
+                <p>view this project on <a href="https://github.com/ptdede/ptdede.me" aria-label="github project page">github</a></p>
+            </div>
         </StyledLanding>
     );
 }

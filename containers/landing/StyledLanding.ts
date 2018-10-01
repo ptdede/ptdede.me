@@ -44,7 +44,7 @@ const StyledLanding = styled.div`
 
     .landing--hero {
         position: relative;
-        min-height: 100vh;
+        min-height: 90vh;
         z-index: 1;
         display: flex;
         align-items: center;
@@ -126,6 +126,22 @@ const StyledLanding = styled.div`
     .landing--scroller {
         
     }
+
+    .footer {
+        padding: 0rem 3rem;
+
+        @media ${breakpoints.mobileS} {
+            padding: 0rem 2rem;
+        }
+
+        @media ${breakpoints.mobileM} {
+            padding: 0rem 3rem;
+        }
+
+        @media ${breakpoints.tablet} { 
+            text-align: center;
+        }
+    }    
 
     h2 {
         /* color: #9e956e; */
