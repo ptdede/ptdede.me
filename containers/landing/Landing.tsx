@@ -77,7 +77,6 @@ const Landing = () => {
             <div className="footer">
                 <p>view this project on <a href="https://github.com/ptdede/ptdede.me" aria-label="github project page">github</a></p>
                 <div>
-                    <EmailShareButton url="https://ptdede.me" size={32} round={true} title="Dede Adhyatmika | Personal and Portfolio Website" />
                     <p>share me</p>
                     <div className="social">
                         <FacebookShareButton additionalProps={{["aria-label"]: "Facebook Share Button"}} size={socialSize} url="https://ptdede.me">
