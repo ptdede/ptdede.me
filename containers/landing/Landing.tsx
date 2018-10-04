@@ -80,22 +80,22 @@ const Landing = () => {
                     <EmailShareButton url="https://ptdede.me" size={32} round={true} title="Dede Adhyatmika | Personal and Portfolio Website" />
                     <p>share me</p>
                     <div className="social">
-                        <FacebookShareButton size={socialSize} url="https://ptdede.me">
+                        <FacebookShareButton additionalProps={{["aria-label"]: "Facebook Share Button"}} size={socialSize} url="https://ptdede.me">
                           <FacebookIcon size={socialSize} round={true} />  
                         </FacebookShareButton>
-                        <GooglePlusShareButton size={socialSize} url="https://ptdede.me">
+                        <GooglePlusShareButton additionalProps={{["aria-label"]: "GooglePlus Share Button"}} size={socialSize} url="https://ptdede.me">
                           <GooglePlusIcon size={socialSize} round={true} />  
                         </GooglePlusShareButton>
-                        <LinkedinShareButton size={socialSize} url="https://ptdede.me">
+                        <LinkedinShareButton additionalProps={{["aria-label"]: "Linkedin Share Button"}} size={socialSize} url="https://ptdede.me">
                           <LinkedinIcon size={socialSize} round={true} />  
                         </LinkedinShareButton>
-                        <TwitterShareButton size={socialSize} url="https://ptdede.me">
+                        <TwitterShareButton additionalProps={{["aria-label"]: "Twitter Share Button"}} size={socialSize} url="https://ptdede.me">
                           <TwitterIcon size={socialSize} round={true} />  
                         </TwitterShareButton>
-                        <WhatsappShareButton size={socialSize} url="https://ptdede.me">
+                        <WhatsappShareButton additionalProps={{["aria-label"]: "Whatsapp Share Button"}} size={socialSize} url="https://ptdede.me">
                             <WhatsappIcon size={socialSize} round={true} />
                         </WhatsappShareButton>
-                        <EmailShareButton size={socialSize} url="https://ptdede.me" title="Dede Adhyatmika | Personal and Portfolio Website">
+                        <EmailShareButton additionalProps={{ ["aria-label"]: "Email Share Button"}} size={socialSize} url="https://ptdede.me" title="Dede Adhyatmika | Personal and Portfolio Website">
                             <EmailIcon size={socialSize} round={true} />
                         </EmailShareButton>
                     </div>
