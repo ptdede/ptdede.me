@@ -141,6 +141,34 @@ const StyledLanding = styled.div`
         @media ${breakpoints.tablet} { 
             text-align: center;
         }
+
+        .social {
+            display: flex;
+            margin-bottom: 1rem;
+
+            @media ${breakpoints.mobileS} { 
+                justify-content: flex-start;
+            }
+
+            @media ${breakpoints.mobileM} {
+                justify-content: flex-start;
+            }
+
+            @media ${breakpoints.tablet} { 
+                justify-content: center;
+            }
+            
+            .SocialMediaShareButton {
+                outline: none;
+                cursor: pointer;
+                opacity: .5;
+                margin: 0 .2rem;
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
     }    
 
     h2 {

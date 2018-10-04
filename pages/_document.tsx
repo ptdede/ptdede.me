@@ -20,7 +20,6 @@ export default class MyDocument extends Document {
             <html lang="en">
                 <Head>
                     {this.props.styleTags}
-                    <title>Dede Adhyatmika | Personal and Portfolio Website</title>
                     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                     <link rel="apple-touch-icon" sizes="57x57" href="/static/favicon/apple-icon-57x57.png" />
                     <link rel="apple-touch-icon" sizes="60x60" href="/static/favicon/apple-icon-60x60.png" />

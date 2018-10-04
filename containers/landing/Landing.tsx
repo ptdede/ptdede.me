@@ -1,8 +1,25 @@
 import dayjs from "dayjs";
 import Head from "next/head";
 import React from "react";
+import {
+    FacebookShareButton,
+    GooglePlusShareButton,
+    LinkedinShareButton,
+    TwitterShareButton,
+    WhatsappShareButton,
+    EmailShareButton,
+
+    FacebookIcon,
+    GooglePlusIcon,
+    LinkedinIcon,
+    TwitterIcon,
+    WhatsappIcon,
+    EmailIcon,
+} from 'react-share';
 
 import StyledLanding from "./StyledLanding";
+
+const socialSize = 24;
 
 const Landing = () => {
     return (
@@ -13,7 +30,7 @@ const Landing = () => {
                 <meta property="og:title" content="Dede Adhyatmika | Personal & Portfolio Website" />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://ptdede.me" />
-                <meta property="og:image" content="https://ptdede.me/static/images/profile.jpg" />
+                <meta property="og:image" content="https://ptdede.me/static/images/cover-social.jpg" />
                 <meta property="og:site_name" content="Dede Adhyatmika Profile" />
                 <meta property="og:description" content="Hi, My name is I Putu Dede Tulus Adhyatmika. I use modern technology stack to solve problem in website and mobile development. Welcome to my personal website. Feel free to contact me anytime." />
 
@@ -59,6 +76,30 @@ const Landing = () => {
 
             <div className="footer">
                 <p>view this project on <a href="https://github.com/ptdede/ptdede.me" aria-label="github project page">github</a></p>
+                <div>
+                    <EmailShareButton url="https://ptdede.me" size={32} round={true} title="Dede Adhyatmika | Personal and Portfolio Website" />
+                    <p>share me</p>
+                    <div className="social">
+                        <FacebookShareButton size={socialSize} url="https://ptdede.me">
+                          <FacebookIcon size={socialSize} round={true} />  
+                        </FacebookShareButton>
+                        <GooglePlusShareButton size={socialSize} url="https://ptdede.me">
+                          <GooglePlusIcon size={socialSize} round={true} />  
+                        </GooglePlusShareButton>
+                        <LinkedinShareButton size={socialSize} url="https://ptdede.me">
+                          <LinkedinIcon size={socialSize} round={true} />  
+                        </LinkedinShareButton>
+                        <TwitterShareButton size={socialSize} url="https://ptdede.me">
+                          <TwitterIcon size={socialSize} round={true} />  
+                        </TwitterShareButton>
+                        <WhatsappShareButton size={socialSize} url="https://ptdede.me">
+                            <WhatsappIcon size={socialSize} round={true} />
+                        </WhatsappShareButton>
+                        <EmailShareButton size={socialSize} url="https://ptdede.me" title="Dede Adhyatmika | Personal and Portfolio Website">
+                            <EmailIcon size={socialSize} round={true} />
+                        </EmailShareButton>
+                    </div>
+                </div>
             </div>
         </StyledLanding>
     );
