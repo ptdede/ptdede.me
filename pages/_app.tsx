@@ -8,7 +8,7 @@ export default class MyApp extends App {
 
     /**
      * Bypass getInitialProps to each page
-     * so they can handle their own implementation
+     * so they can handle their own implementation.
      */
     static async getInitialProps({ Component, ctx }) {
         let pageProps = {};
